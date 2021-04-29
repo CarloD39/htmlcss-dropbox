@@ -5,12 +5,12 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header{
     position: relative;
-    height: 700px;
+    /* height: 700px; */
     background-color: #b4d0e7;
 }
 
@@ -61,26 +61,61 @@ header{
     margin-right: 25px;
 }
 
-/* button utility */
-.button.start{
-    background-color: #0061ff;
-    color: white;
-    padding: 5px 12px;
-    border: none;
-}
 /* NAVIGATION FINISH */
 
+/* button utility start */
+.button{
+    background-color: #0061ff;
+    color: white;
+    border: none;
+}
+
+.button.start{
+    padding: 5px 12px;
+}
+
+.free-test{
+    margin: 20px 0 5px 0;
+    padding: 10px 15px;
+}
+
+.arrow{
+    margin-top: 20px;
+    font-size: 42px;
+    border: none;
+    background-color: #b4d0e7;   
+}
+/* button uitility finish */
+
 .container{
-    max-width: 1200px;
+    width: 1250px;
+    height: 600px;
     margin: 0 auto;
     padding-top: 40px;
-    height: 600px;
-    border: 2px solid black;
 }
 
 .title-header{
     font-size: 60px;
+    font-weight: bold;
 }
+
+.text-header{
+    margin-top: 30px;
+    max-width: 330px;
+    font-size: 16px;
+}
+
+.text-after{
+    font-size: 12px;
+}
+
+.picture-container.fl img{
+    margin:20px 0 0 50px;
+    width: 850px;
+    height: 450px;
+}
+
+
 
 
 

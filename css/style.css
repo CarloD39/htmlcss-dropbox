@@ -3,3 +3,85 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    position: relative;
+    height: 700px;
+    background-color: #b4d0e7;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* NAVIGATION START */
+
+.top-bar.clearfix{
+    height: 70px;
+    padding: 10px 10px 0 10px ;
+    background-color: white;
+}
+
+.fl{
+    float: left;;
+}
+
+.logo{
+    /* background-color: coral; */
+    width: 10%; 
+}
+
+.question{
+    /* background-color: darkgoldenrod; */
+    width: 40%;
+}
+
+.login{
+    /* background-color: chocolate; */
+    width: 50%;
+    text-align: right;
+}
+
+.fl li{
+    display: inline-block;
+}
+
+.logo{
+    padding-top: 10px;
+}
+
+.question li, .login li{
+    padding-top: 15px;
+    margin-right: 25px;
+}
+
+/* button utility */
+.button.start{
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 12px;
+    border: none;
+}
+/* NAVIGATION FINISH */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 600px;
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+

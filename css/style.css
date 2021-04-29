@@ -120,20 +120,36 @@ header{
     margin: 0 auto;
     padding-top: 150px;
     max-width: 1100px;
-    border: 2px solid black;
 }
 
 .title-dropbox{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.title-dropbox, .enterprise-contact {
     width: 100%;
-    height: 100px;
     background-color: darksalmon;
 }
 
 .section{
-    width: calc(100% / 3);
-    height: 500px;
+    width: calc(100% / 3 );
+    padding: 30px 0;
+    height: 600px;
     background-color:forestgreen;
-    border: 2px solid black;
+}
+
+.section.lf{
+    padding-right: 30px;
+}
+
+.section.centr{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section.rt{
+    padding-left: 30px;
 }
 
 .itemp{

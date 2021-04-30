@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 header{
@@ -48,7 +48,7 @@ header{
     text-align: right;
 }
 
-.fl li{
+.part.fl li{
     display: inline-block;
 }
 
@@ -83,7 +83,13 @@ header{
     margin-top: 20px;
     font-size: 42px;
     border: none;
-    background-color: #b4d0e7;   
+    background-color: #b4d0e7;
+}
+
+.days-30{
+    padding: 10px 35px;
+    font-size: 14px;
+    margin-bottom: 15px;
 }
 /* button uitility finish */
 
@@ -122,21 +128,29 @@ header{
     max-width: 1100px;
 }
 
-.title-dropbox{
-    font-size: 32px;
+.title-dropbox > h2{
+    font-size: 48px;
     font-weight: 900;
+}
+
+.input-dropbox{
+    margin-top: 20px;
+}
+
+.input-dropbox > span{
+    margin-right: 10px;
 }
 
 .title-dropbox, .enterprise-contact {
     width: 100%;
-    background-color: darksalmon;
+    /* background-color: darksalmon; */
 }
 
 .section{
     width: calc(100% / 3 );
     padding: 30px 0;
-    height: 600px;
-    background-color:forestgreen;
+    height: 900px;
+    /* background-color:forestgreen; */
 }
 
 .section.lf{
@@ -155,8 +169,51 @@ header{
 .itemp{
     width: 100%;
     height: 100%;
-    background-color: gold;
+    border: 1px solid black;
+    /* background-color: gold; */
 }
+
+.intern{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid black;
+}
+
+.intern h4{
+    text-align: center;
+    line-height: 60px;
+}
+
+.contenuto{
+    padding: 30px 40px;
+}
+
+.contenuto li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.titl-price{
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+
+.test-days{
+    margin-bottom: 30px;
+}
+
+.contenuto hr{
+    max-width: 60px;
+    margin-bottom: 30px;
+}
+
+.offers span{
+    color: royalblue;
+}
+
+
+
 
 
 

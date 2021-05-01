@@ -276,7 +276,7 @@ nav > ul{
     /* background-color:darkolivegreen */
 }
 
-/* start box with 6 floats */
+/* START box with 6 floats */
 
 .titl-operations{
     /* background-color: orange; */
@@ -301,10 +301,126 @@ nav > ul{
 .explain-actions{
     margin-top: 20px;
 }
+/* FINISH box with 6 floats */
+
+.box.dropbox.team{
+    padding-top: 50px;
+}
+
+.team > div{
+    margin-bottom: 20px;
+}
+
+/* box-griglia START */
+
+.box-griglia{
+    max-width: 100%;
+    padding-top: 50px;
+}
+
+.square-logo{
+    width: calc(100% / 3);
+    height: 527.66px;
+}
 
 
+.quote{
+    padding: 70px 50px;
+    background-color: rgb(241, 241, 241);
+}
 
+.quote hr{
+    max-width: 60px;
+    color: gray;
+}
 
+.brand-picture-quote{
+    width: 120px;
+    margin-bottom: 30px;
+}
+
+.paragraph-quote{
+    padding-top: 50px;
+    line-height: 25px;
+}
+
+.quote-name{
+    margin-top: 100px;
+}
+
+.brand-logo{
+    position: relative;
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+}
+
+.brand-logo.designit{
+    background-color: #a2d39b;;
+}
+
+.brand-logo.Asu{
+    background-color: #61082b;;
+}
+
+.brand-logo.UF{
+    background-color: #0093ce;;
+}
+
+.brand-logo.Topps{
+    background-color: #ff1c1c;
+}
+
+.brand-logo.world-bicycle{
+    background-color: #d5001f;;
+}
+
+.brand-logo.hearst{
+    background-color: #b4d0e7;
+}
+
+.brand-logo.lonley-planet{
+    background-color: #0d2481;
+}
+
+.brand-logo.clear-channel{
+    background-color: #ffd830;
+}
+
+.brand-logo-picture{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    filter: invert(1);
+}
+
+.brand-logo-picture img{
+    width: 100%;
+}
+
+.brand-logo-picture.asu{
+    width: 100px;
+}
+
+/* FINISH Box Griglia */
+
+.box-azienda{
+    background-color: #b4d0e7;
+    height: 300px;
+}
+
+.azienda-part.one{
+    width: 60%;
+    background-color: greenyellow;
+    height: 100%;
+}
+
+.azienda-part.two{
+    width: 40%;
+    background-color: indianred;
+    height: 100%;
+}
 
 
 

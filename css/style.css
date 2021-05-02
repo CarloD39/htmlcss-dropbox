@@ -54,6 +54,10 @@ nav > ul{
     text-align: right;
 }
 
+li{
+    list-style: none;
+}
+
 .part.fl li{
     display: inline-block;
 }
@@ -410,17 +414,82 @@ nav > ul{
     height: 300px;
 }
 
+.box-azienda-inside{
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
 .azienda-part.one{
-    width: 60%;
-    background-color: greenyellow;
-    height: 100%;
+    width: 70%;
 }
 
 .azienda-part.two{
-    width: 40%;
-    background-color: indianred;
-    height: 100%;
+    padding-top: 15px;
+    width: 30%;
 }
+
+.azienda-part.one h2{
+    font-size: 48px;
+    color: #61082b;
+    max-width: 650px;
+}
+
+.azienda-part.two a button{
+    font-size: 14px;
+    padding: 5px 15px
+}
+
+/*  */
+
+.box.dropbox.questions{
+    height: 500px;
+}
+
+.questions-title{
+    height: 80px;
+    border-bottom: 1px solid gray;
+    font-size: 24px;
+}
+
+.questions-line{
+    position: relative;
+    border-bottom: 1px solid gray;
+    line-height: 60px;
+}
+
+.questions-line::after{
+    content: "\21D3";  
+    position: absolute;
+    right: 5px;
+}
+
+/* Start footer */
+
+footer{
+    padding-top: 150px;
+}
+
+.footer-color{
+    background-color: black;
+    height: 650px;
+}
+
+.bottom-menu.column{
+    width: calc(100% / 5 - 30px );
+    margin: 0 15px 0 15px;
+    line-height: 30px;
+    color: white;
+    font-size: 14px;
+    padding-bottom: 100px;
+}
+
+.column-list{
+    padding-top: 10px;
+}
+
+
+
 
 
 

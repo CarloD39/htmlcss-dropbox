@@ -10,7 +10,6 @@ body{
 
 header{
     position: relative;
-    /* height: 700px; */
     background-color: #b4d0e7;
 }
 
@@ -18,6 +17,10 @@ header{
     content: "";
     display: table;
     clear: both;
+}
+
+.fl{
+    float: left;
 }
 
 a{
@@ -34,18 +37,12 @@ a{
     color: #0061ff;
 }
 
-
-
 /* NAVIGATION START */
 
 .top-bar.clearfix{
     height: 70px;
     padding: 10px 10px 0 10px ;
     background-color: white;
-}
-
-.fl{
-    float: left;
 }
 
 nav > ul{
@@ -91,7 +88,7 @@ li{
 }
 
 .button.start{
-    padding: 5px 12px;
+    padding: 4px 12px;
 }
 
 .free-test{
@@ -159,7 +156,6 @@ li{
     margin:20px 0 0 50px;
     width: 850px;
     height: 450px;
-    line-height: 25px;
 }
 
 /* start Main-Box1 */
@@ -167,12 +163,10 @@ li{
     margin: 0 auto;
     padding-top: 150px;
     max-width: 1100px;
-    /* background-color:palegreen */
 }
 
 .title-dropbox > h2{
     font-size: 48px;
-    font-weight: 900;
 }
 
 .input-dropbox{
@@ -184,13 +178,13 @@ li{
 }
 
 .title-dropbox, .enterprise-contact {
-    width: 100%;
+    max-width: 100%;
 }
 
 .section{
     width: calc(100% / 3 );
     padding: 30px 0;
-    height: 1000px;
+    height: 1100px;
     line-height: 25px;
 }
 
@@ -203,15 +197,14 @@ li{
     padding-right: 15px;
 }
 
-.section.rt{
+.section.right{
     padding-left: 30px;
 }
 
-.itemp{
+.information-product{
     width: 100%;
     height: 100%;
     border: 1px solid black;
-    /* background-color: gold; */
 }
 
 .intern{
@@ -237,7 +230,6 @@ li{
     margin-bottom: 40px;
 }
 
-
 .test-days{
     margin-bottom: 30px;
 }
@@ -247,8 +239,12 @@ li{
     margin-bottom: 30px;
 }
 
-.offers span{
-    color: royalblue;
+.offers{
+    margin-top: 10px;
+}
+
+.offers li span:first-child{
+    color: #0061ff;
 }
 
 .enterprise-contact{
@@ -257,7 +253,6 @@ li{
 }
 
 .team.intern-down{
-    width: 100%;
     height: 40px;
     border-bottom: 1px solid black;
     text-align: center;
@@ -275,27 +270,24 @@ li{
 .voices.r{
     width: 30%;
 }
-/* finish Main-Box1*/
+/* FINISH Main-Box1*/
 
-.picture-2{
+.picture-twoman, .text-2{
     width: 50%;
 }
 
-.picture-2 img{
+.picture-twoman img{
     max-width: 100%;
 }
 
 .text-2{
-    width: 50%;
     padding: 140px 100px;
     line-height: 25px;
-    /* background-color:darkolivegreen */
 }
 
 /* START box with 6 floats */
 
 .titl-operations{
-    /* background-color: orange; */
     font-size: 32px;
 }
 
@@ -311,7 +303,6 @@ li{
 
 .picture-actions{
     width: 100%;
-    text-align: left;
 }
 
 .picture-actions img{
@@ -320,6 +311,10 @@ li{
 
 .explain-actions{
     margin-top: 20px;
+}
+
+.explain-actions p{
+    line-height: 25px;
 }
 /* FINISH box with 6 floats */
 
@@ -426,9 +421,9 @@ li{
 /* FINISH Box Griglia */
 
 .box-azienda{
+    position: relative;
     background-color: #b4d0e7;
     height: 300px;
-    position: relative;
 }
 
 .box-azienda-inside{
@@ -504,12 +499,13 @@ footer{
     padding-bottom: 100px;
 }
  
-
 .column-list{
     padding-top: 10px;
 }
 
-
+.bottom-menu hr{
+    max-width: 100px;
+}
 
 
 
